@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Button } from 'antd-mobile';
 import styled from 'styled-components/macro';
 import { Logos } from './Logos';
 import { Title } from './components/Title';
@@ -10,6 +11,7 @@ export function Masthead() {
     <Wrapper>
       <Logos />
       <Title>React Boilerplate meets CRA</Title>
+      <Button type="primary">Start</Button>
       <Lead>
         Now you can use the{' '}
         <A

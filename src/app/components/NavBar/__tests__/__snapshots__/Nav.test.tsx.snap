@@ -6,7 +6,6 @@ exports[`<Nav /> should match the snapshot 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-right: -1rem;
 }
 
 .c1 {
@@ -17,8 +16,8 @@ exports[`<Nav /> should match the snapshot 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 0.25rem 1rem;
-  font-size: 0.875rem;
+  padding: 8px 10px;
+  font-size: 20px;
   font-weight: 500;
   -webkit-align-items: center;
   -webkit-box-align: center;

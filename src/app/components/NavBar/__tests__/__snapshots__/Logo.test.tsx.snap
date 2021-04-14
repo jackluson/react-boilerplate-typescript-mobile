@@ -10,17 +10,13 @@ exports[`<Logo /> should match snapshot 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  max-width: 260px;
 }
 
 .c1 {
-  font-size: 1.25rem;
+  font-size: 28px;
   font-weight: bold;
-  margin-right: 1rem;
-}
-
-.c2 {
-  font-size: 0.875rem;
-  font-weight: normal;
+  margin-right: 12px;
 }
 
 <div
@@ -29,12 +25,7 @@ exports[`<Logo /> should match snapshot 1`] = `
   <div
     class="c1"
   >
-    React Boilerplate
-  </div>
-  <div
-    class="c2"
-  >
-    Create React App Template
+    react-boilerplate-typescript-mobile
   </div>
 </div>
 `;

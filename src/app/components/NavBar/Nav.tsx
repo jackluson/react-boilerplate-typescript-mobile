@@ -30,7 +30,6 @@ export function Nav() {
 
 const Wrapper = styled.nav`
   display: flex;
-  margin-right: -1rem;
 `;
 
 const Item = styled.a`
@@ -38,8 +37,8 @@ const Item = styled.a`
   cursor: pointer;
   text-decoration: none;
   display: flex;
-  padding: 0.25rem 1rem;
-  font-size: 0.875rem;
+  padding: 8px 10px;
+  font-size: 20px;
   font-weight: 500;
   align-items: center;
 

@@ -5,7 +5,8 @@ node_modules
 stats.json
 .pnp
 .pnp.js
-
+*.lock
+package-lock.json
 # misc
 .DS_Store
 npm-debug.log*

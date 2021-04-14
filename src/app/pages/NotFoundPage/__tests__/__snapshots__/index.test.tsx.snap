@@ -11,30 +11,24 @@ Array [
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  max-width: 260px;
 }
 
 .c4 {
-  font-size: 1.25rem;
+  font-size: 28px;
   color: rgba(58,52,51,1);
   font-weight: bold;
-  margin-right: 1rem;
+  margin-right: 12px;
 }
 
 .c5 {
-  font-size: 0.875rem;
-  color: rgba(58,52,51,0.7);
-  font-weight: normal;
-}
-
-.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-right: -1rem;
 }
 
-.c7 {
+.c6 {
   color: rgba(215,113,88,1);
   cursor: pointer;
   -webkit-text-decoration: none;
@@ -43,8 +37,8 @@ Array [
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 0.25rem 1rem;
-  font-size: 0.875rem;
+  padding: 8px 10px;
+  font-size: 20px;
   font-weight: 500;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -52,23 +46,24 @@ Array [
   align-items: center;
 }
 
-.c7:hover {
+.c6:hover {
   opacity: 0.8;
 }
 
-.c7:active {
+.c6:active {
   opacity: 0.4;
 }
 
-.c7 .icon {
+.c6 .icon {
   margin-right: 0.25rem;
 }
 
 .c2 {
-  width: 960px;
+  width: 750px;
   margin: 0 auto;
-  padding: 0 1.5rem;
-  box-sizing: content-box;
+  padding: 0 24px;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .c0 {
@@ -120,19 +115,14 @@ Array [
         <div
           className="c4"
         >
-          React Boilerplate
-        </div>
-        <div
-          className="c5"
-        >
-          Create React App Template
+          react-boilerplate-typescript-mobile
         </div>
       </div>
       <nav
-        className="c6"
+        className="c5"
       >
         <a
-          className="c7"
+          className="c6"
           href="https://cansahin.gitbook.io/react-boilerplate-cra-template/"
           rel="noopener noreferrer"
           target="_blank"
@@ -144,7 +134,7 @@ Array [
           Documentation
         </a>
         <a
-          className="c7"
+          className="c6"
           href="https://github.com/react-boilerplate/react-boilerplate-cra-template"
           rel="noopener noreferrer"
           target="_blank"

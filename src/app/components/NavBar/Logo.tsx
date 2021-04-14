@@ -4,8 +4,7 @@ import styled from 'styled-components/macro';
 export function Logo() {
   return (
     <Wrapper>
-      <Title>React Boilerplate</Title>
-      <Description>Create React App Template</Description>
+      <Title>react-boilerplate-typescript-mobile</Title>
     </Wrapper>
   );
 }
@@ -13,17 +12,12 @@ export function Logo() {
 const Wrapper = styled.div`
   display: flex;
   align-items: center;
+  max-width: 260px;
 `;
 
 const Title = styled.div`
-  font-size: 1.25rem;
+  font-size: 28px;
   color: ${p => p.theme.text};
   font-weight: bold;
-  margin-right: 1rem;
-`;
-
-const Description = styled.div`
-  font-size: 0.875rem;
-  color: ${p => p.theme.textSecondary};
-  font-weight: normal;
+  margin-right: 12px;
 `;

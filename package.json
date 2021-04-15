@@ -2,6 +2,7 @@
   "name": "react-boilerplate-typescript-mobile",
   "version": "1.0.0",
   "private": false,
+  "homepage": "https://jackluson.github.io/react-boilerplate-typescript-mobile",
   "dependencies": {
     "@reduxjs/toolkit": "1.4.0",
     "@testing-library/jest-dom": "5.11.4",

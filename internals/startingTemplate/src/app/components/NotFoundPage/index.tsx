@@ -36,10 +36,10 @@ const Wrapper = styled.div`
 const Title = styled.div`
   margin-top: -8vh;
   font-weight: bold;
-  color: black;
-  font-size: 3.375rem;
+  color: ${p => p.theme.text};
+  font-size: 72px;
 
   span {
-    font-size: 3.125rem;
+    font-size: 60px;
   }
 `;

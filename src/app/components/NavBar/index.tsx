@@ -18,7 +18,7 @@ export function NavBar() {
 
 const Wrapper = styled.header`
   box-shadow: 0 1px 0 0 ${p => p.theme.borderLight};
-  height: ${StyleConstants.NAV_BAR_HEIGHT};
+  height: ${StyleConstants.NAV_BAR_HEIGHT}px;
   display: flex;
   position: fixed;
   top: 0;

@@ -6,6 +6,17 @@ exports[`<Masthead /> should render and match the snapshot 1`] = `
   <Title>
     React Boilerplate meets CRA
   </Title>
+  <Button
+    activeStyle={Object {}}
+    disabled={false}
+    inline={false}
+    loading={false}
+    prefixCls="am-button"
+    size="large"
+    type="primary"
+  >
+    Start
+  </Button>
   <Lead>
     Now you can use the
      

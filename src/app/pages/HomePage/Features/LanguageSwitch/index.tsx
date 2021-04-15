@@ -40,6 +40,7 @@ export function LanguageSwitch() {
 }
 
 const Wrapper = styled.div`
+  font-size: 32px;
   display: flex;
   flex-direction: column;
   ${FormLabel} {

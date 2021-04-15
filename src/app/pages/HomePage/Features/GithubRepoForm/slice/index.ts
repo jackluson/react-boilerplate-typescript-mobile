@@ -6,7 +6,7 @@ import { githubRepoFormSaga } from './saga';
 import { GithubRepoFormState, RepoErrorType } from './types';
 
 export const initialState: GithubRepoFormState = {
-  username: 'react-boilerplate',
+  username: 'jackluson',
   repositories: [],
   loading: false,
   error: null,

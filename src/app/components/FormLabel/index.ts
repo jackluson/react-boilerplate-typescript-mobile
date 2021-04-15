@@ -6,5 +6,5 @@ export const FormLabel = styled.label`
   margin: 0;
   padding: 0;
   color: ${p => p.theme.textSecondary};
-  font-size: 0.75rem;
+  font-size: 18px;
 `;

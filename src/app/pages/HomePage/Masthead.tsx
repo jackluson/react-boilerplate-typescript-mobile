@@ -34,7 +34,7 @@ export function Masthead() {
 }
 
 const Wrapper = styled.main`
-  height: 60vh;
+  height: 48vh;
   display: flex;
   flex-direction: column;
   align-items: center;

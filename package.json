@@ -132,7 +132,7 @@
     }
   },
   "devDependencies": {
-    "babel-plugin-styled-components-px2vw": "1.5.0",
+    "babel-plugin-styled-components-px2vw": "1.5.1",
     "customize-cra": "1.0.0",
     "react-app-rewired": "2.1.8"
   }

@@ -52,7 +52,7 @@ export function GithubRepoForm() {
   return (
     <Wrapper>
       <FormGroup onSubmit={onSubmitForm}>
-        <FormLabel>Github Username</FormLabel>
+        <FormLabel>Github Username:</FormLabel>
         <InputWrapper>
           <Input
             type="text"
@@ -108,7 +108,6 @@ const InputWrapper = styled.div`
   align-items: center;
 
   ${Input} {
-    width: ${100 / 3}%;
     margin-right: 0.5rem;
   }
 `;
@@ -123,8 +122,8 @@ const FormGroup = styled.form`
   margin-bottom: 1rem;
 
   ${FormLabel} {
-    margin-bottom: 0.25rem;
-    margin-left: 0.125rem;
+    margin-bottom: 2px;
+    margin-left: 4px;
   }
 `;
 

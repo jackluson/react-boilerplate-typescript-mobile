@@ -36,15 +36,16 @@ const Wrapper = styled.div`
   justify-content: center;
   flex-direction: column;
   min-height: 320px;
+  font-size: 32px;
 `;
 
 const Title = styled.div`
   margin-top: -8vh;
   font-weight: bold;
   color: ${p => p.theme.text};
-  font-size: 3.375rem;
+  font-size: 72px;
 
   span {
-    font-size: 3.125rem;
+    font-size: 60px;
   }
 `;

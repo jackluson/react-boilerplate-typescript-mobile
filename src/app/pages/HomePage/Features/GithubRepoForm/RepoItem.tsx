@@ -30,7 +30,7 @@ export function RepoItem({ name, starCount, url }: Props) {
 const Wrapper = styled.div`
   display: flex;
   align-items: center;
-  padding: 0 1rem;
+  padding: 0 12px;
   min-height: 2.75rem;
   font-weight: 500;
   color: ${p => p.theme.text};
@@ -53,6 +53,7 @@ const StarCount = styled.div`
   display: flex;
   align-items: center;
   min-width: 6rem;
+  font-size: 14px;
   .icon {
     margin-right: 0.125rem;
   }

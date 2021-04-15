@@ -16,10 +16,14 @@ import { HomePage } from './pages/HomePage/Loadable';
 import { NotFoundPage } from './pages/NotFoundPage/Loadable';
 import { useTranslation } from 'react-i18next';
 
+const basename =
+  process.env.NODE_ENV === 'production'
+    ? '/react-boilerplate-typescript-mobile'
+    : '/';
 export function App() {
   const { i18n } = useTranslation();
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <Helmet
         titleTemplate="%s - React Boilerplate"
         defaultTitle="React Boilerplate"
@@ -29,7 +33,7 @@ export function App() {
       </Helmet>
 
       <Switch>
-        <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage} />
+        <Route exact path="/" component={HomePage} />
         <Route component={NotFoundPage} />
       </Switch>
       <GlobalStyle />

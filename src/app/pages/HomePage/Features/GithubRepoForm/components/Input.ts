@@ -14,7 +14,7 @@ export const Input = styled.input`
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   outline: none;
   height: 48px;
-  padding: 0 0.75rem;
+  padding: 0 12px;
 
   &::placeholder {
     font-weight: 300;

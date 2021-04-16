@@ -49,8 +49,4 @@ const Item = styled.a`
   &:active {
     opacity: 0.4;
   }
-
-  .icon {
-    margin-right: 0.25rem;
-  }
 `;

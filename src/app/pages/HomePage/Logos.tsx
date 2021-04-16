@@ -20,13 +20,13 @@ const Wrapper = styled.div`
   color: ${p => p.theme.border};
 
   .logo {
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 96px;
+    height: 96px;
   }
 
   .sign {
-    width: 2rem;
-    height: 2rem;
-    margin: 0 2rem;
+    width: 32px;
+    height: 32px;
+    margin: 0 32px;
   }
 `;

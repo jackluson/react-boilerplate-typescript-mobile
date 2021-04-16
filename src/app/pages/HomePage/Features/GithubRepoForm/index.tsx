@@ -99,7 +99,7 @@ export const repoErrorText = (error: RepoErrorType) => {
 const Wrapper = styled.div`
   ${TextButton} {
     margin: 16px 0;
-    font-size: 0.875rem;
+    font-size: 24px;
   }
 `;
 
@@ -108,7 +108,7 @@ const InputWrapper = styled.div`
   align-items: center;
 
   ${Input} {
-    margin-right: 0.5rem;
+    margin-right: 8px;
   }
 `;
 
@@ -119,7 +119,7 @@ const ErrorText = styled.span`
 const FormGroup = styled.form`
   display: flex;
   flex-direction: column;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 
   ${FormLabel} {
     margin-bottom: 2px;

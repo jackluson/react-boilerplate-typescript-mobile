@@ -1,11 +1,13 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
+import { Icon } from 'antd-mobile';
 import { Title } from '../components/Title';
 import { Lead } from '../components/Lead';
 import { SubTitle } from '../components/SubTitle';
 import { P } from '../components/P';
 import { A } from 'app/components/A';
 import { GithubRepoForm } from './GithubRepoForm';
+import { AntdMobileDemo } from './AntdMobile';
 import { ThemeSwitch } from './ThemeSwitch';
 import { LanguageSwitch } from './LanguageSwitch';
 import { ReactComponent as StateIcon } from './assets/state.svg';
@@ -62,6 +64,20 @@ export function Features() {
               Redux Dev Tools.
             </P>
             <GithubRepoForm />
+          </Content>
+        </Feature>
+        <Feature>
+          <MyIcon>
+            <Icon type="check-circle" />
+          </MyIcon>
+
+          <Content>
+            <SubTitle>integrated Antd-Mobile</SubTitle>
+            <P>
+              antd-mobile is the React implementation of the Ant Design's mobile
+              specification, serving the ant and koubei wireless service.
+            </P>
+            <AntdMobileDemo />
           </Content>
         </Feature>
         <Feature>
@@ -171,9 +187,19 @@ const Feature = styled.li`
 `;
 const Content = styled.div`
   flex: 1;
+  overflow: hidden;
 `;
 
 const List = styled.ul`
   padding: 0;
   margin: 32px 0 0 0;
+`;
+
+const MyIcon = styled.div`
+  svg {
+    width: 80px;
+    height: 80px;
+    margin-right: 8px;
+    color: #2da731;
+  }
 `;

@@ -15,7 +15,7 @@ import FontFaceObserver from 'fontfaceobserver';
 
 // Use consistent styling
 import 'sanitize.css/sanitize.css';
-// import 'antd-mobile/dist/antd-mobile.css';
+import 'antd-mobile/dist/antd-mobile.css';
 
 import { App } from 'app';
 

@@ -1,5 +1,6 @@
 const {
   override,
+  fixBabelImports,
   addLessLoader,
   addBabelPlugin,
   addPostcssPlugins,
@@ -14,6 +15,10 @@ const rewiredSourceMap = () => config => {
 };
 
 module.exports = override(
+  fixBabelImports('import', {
+    libraryName: 'antd-mobile',
+    style: 'css',
+  }),
   addLessLoader({
     modifyVars: {
       '@primary-color': '#13c2c2',

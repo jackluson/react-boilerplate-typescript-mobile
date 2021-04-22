@@ -136,6 +136,7 @@
     }
   },
   "devDependencies": {
+    "babel-plugin-import": "1.13.3",
     "babel-plugin-styled-components-px2vw": "1.5.3",
     "customize-cra": "1.0.0",
     "less-loader": "8.1.0",

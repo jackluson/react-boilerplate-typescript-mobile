@@ -40,16 +40,17 @@ export function LanguageSwitch() {
 }
 
 const Wrapper = styled.div`
+  font-size: 32px;
   display: flex;
   flex-direction: column;
   ${FormLabel} {
-    margin-bottom: 0.625rem;
+    margin-bottom: 10px;
   }
 `;
 const Languages = styled.div`
   display: flex;
 
   .radio {
-    margin-right: 1.5rem;
+    margin-right: 21px;
   }
 `;

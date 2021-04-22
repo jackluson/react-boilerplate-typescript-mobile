@@ -38,8 +38,8 @@ interface SvgProps {
 
 const Svg = styled.svg<SvgProps>`
   animation: ${rotate} ${speed * 1.75}s linear infinite;
-  height: ${p => (p.small ? '1.25rem' : '3rem')};
-  width: ${p => (p.small ? '1.25rem' : '3rem')};
+  height: ${p => (p.small ? 20 : 48)}px;
+  width: ${p => (p.small ? 20 : 48)}px;
   transform-origin: center;
 `;
 

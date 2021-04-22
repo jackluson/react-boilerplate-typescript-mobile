@@ -16,7 +16,7 @@ export function Nav() {
         Documentation
       </Item>
       <Item
-        href="https://github.com/react-boilerplate/react-boilerplate-cra-template"
+        href="https://github.com/jackluson/react-boilerplate-typescript-mobile"
         target="_blank"
         title="Github Page"
         rel="noopener noreferrer"
@@ -48,9 +48,5 @@ const Item = styled.a`
 
   &:active {
     opacity: 0.4;
-  }
-
-  .icon {
-    margin-right: 0.25rem;
   }
 `;

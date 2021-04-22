@@ -35,11 +35,11 @@ const Wrapper = styled.div`
     + label {
       margin: 0;
       display: inline-block;
-      padding-left: 1.375rem;
-      padding-top: 0.0625rem;
+      padding-left: 28px;
+      padding-top: 4px;
       position: relative;
       cursor: pointer;
-      font-size: 0.875rem;
+      font-size: 20px;
       color: ${p => p.theme.text};
       z-index: 1;
 
@@ -50,11 +50,11 @@ const Wrapper = styled.div`
 
       &::before {
         position: absolute;
-        top: 0.25rem;
+        top: 12px;
         left: 0;
         display: inline-block;
-        width: 1rem;
-        height: 1rem;
+        width: 16px;
+        height: 16px;
         border-radius: 50%;
         background-color: ${p => p.theme.background};
         content: '';
@@ -67,11 +67,11 @@ const Wrapper = styled.div`
         content: '';
         position: absolute;
         display: inline-block;
-        width: 0.375rem;
-        height: 0.375rem;
+        width: 8px;
+        height: 8px;
         border-radius: 50%;
-        top: 0.5625rem;
-        left: 0.3125rem;
+        top: 16px;
+        left: 4px;
         background-color: ${p => p.theme.background};
       }
 

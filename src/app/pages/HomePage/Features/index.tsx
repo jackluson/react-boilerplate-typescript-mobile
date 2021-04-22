@@ -161,12 +161,11 @@ export function Features() {
 
 const Feature = styled.li`
   display: flex;
-  margin: 6.25rem 0 6.25rem 2.25rem;
-
+  margin-top: 36px;
   .feature-icon {
-    width: 6.25rem;
-    height: 6.25rem;
-    margin-right: 2.25rem;
+    width: 80px;
+    height: 80px;
+    margin-right: 12px;
     flex-shrink: 0;
   }
 `;
@@ -176,5 +175,5 @@ const Content = styled.div`
 
 const List = styled.ul`
   padding: 0;
-  margin: 6.25rem 0 0 0;
+  margin: 32px 0 0 0;
 `;

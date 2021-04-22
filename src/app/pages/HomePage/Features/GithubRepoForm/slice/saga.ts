@@ -22,7 +22,9 @@ export function* getRepos() {
     // Call our request helper (see 'utils/request')
     const repos: Repo[] = yield call(request, requestURL);
     if (repos?.length > 0) {
-      yield put(actions.reposLoaded(repos));
+      yield put(
+        actions.reposLoaded(repos.filter(item => item.stargazers_count > 0)),
+      );
     } else {
       yield put(actions.repoError(RepoErrorType.USER_HAS_NO_REPO));
     }

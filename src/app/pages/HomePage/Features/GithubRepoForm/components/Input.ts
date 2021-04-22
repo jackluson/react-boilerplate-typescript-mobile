@@ -6,15 +6,15 @@ export const Input = styled.input`
   color: ${p => p.theme.text};
   display: block;
   width: 100%;
-  font-size: 1rem;
+  font-size: 18px;
   font-weight: 500;
   line-height: 1.5;
   color: ${p => p.theme.text};
   background-color: ${p => p.theme.background};
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   outline: none;
-  height: 2.75rem;
-  padding: 0 0.75rem;
+  height: 48px;
+  padding: 0 12px;
 
   &::placeholder {
     font-weight: 300;

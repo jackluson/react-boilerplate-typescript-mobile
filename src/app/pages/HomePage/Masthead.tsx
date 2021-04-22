@@ -36,10 +36,10 @@ export function Masthead() {
 }
 
 const Wrapper = styled.main`
-  height: 60vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 320px;
+  min-height: 480px;
 `;

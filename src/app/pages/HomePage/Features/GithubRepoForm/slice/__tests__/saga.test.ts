@@ -35,6 +35,7 @@ describe('getRepos Saga', () => {
     username = 'test';
     repos = [
       {
+        stargazers_count: 3,
         name: 'repo1',
         owner: {
           login: 'username1',

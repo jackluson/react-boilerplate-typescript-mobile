@@ -3,12 +3,12 @@
     "main.js": "./static/js/main.af607607.chunk.js",
     "runtime-main.js": "./static/js/runtime-main.3a1c5d3f.js",
     "static/css/2.d813cd58.chunk.css": "./static/css/2.d813cd58.chunk.css",
-    "static/js/2.9068d25f.chunk.js": "./static/js/2.9068d25f.chunk.js",
+    "static/js/2.9710fadf.chunk.js": "./static/js/2.9710fadf.chunk.js",
     "static/js/3.8e71ea4b.chunk.js": "./static/js/3.8e71ea4b.chunk.js",
     "static/js/4.69336833.chunk.js": "./static/js/4.69336833.chunk.js",
     "static/js/5.b0cdbc9d.chunk.js": "./static/js/5.b0cdbc9d.chunk.js",
     "index.html": "./index.html",
-    "static/js/2.9068d25f.chunk.js.LICENSE.txt": "./static/js/2.9068d25f.chunk.js.LICENSE.txt",
+    "static/js/2.9710fadf.chunk.js.LICENSE.txt": "./static/js/2.9710fadf.chunk.js.LICENSE.txt",
     "static/media/code-analysis.141f7683.svg": "./static/media/code-analysis.141f7683.svg",
     "static/media/cra-logo.9d1c1f39.svg": "./static/media/cra-logo.9d1c1f39.svg",
     "static/media/css.a5d1ce5d.svg": "./static/media/css.a5d1ce5d.svg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.3a1c5d3f.js",
     "static/css/2.d813cd58.chunk.css",
-    "static/js/2.9068d25f.chunk.js",
+    "static/js/2.9710fadf.chunk.js",
     "static/js/main.af607607.chunk.js"
   ]
 }

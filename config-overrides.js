@@ -53,6 +53,8 @@ module.exports = override(
     px2vwBabelPlugin,
     {
       transformRuntime: true,
+      // exclude: /\/src\/app\/pages\/HomePage\/Features\/GithubRepoForm/,
+      // include: /\/src\/app\/pages\/HomePage\/Features/,
     },
   ]),
   // new BundleAnalyzerPlugin(),

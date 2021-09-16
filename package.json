@@ -66,7 +66,7 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
-    "start:silent": "FORCE_COLOR=true react-app-rewired start | cat ",
+    "start:log": "FORCE_COLOR=true react-app-rewired start | cat ",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-scripts eject",
@@ -134,9 +134,9 @@
     }
   },
   "devDependencies": {
-    "babel-plugin-styled-components-px2vw": "1.5.3",
     "customize-cra": "1.0.0",
     "less-loader": "8.1.0",
-    "react-app-rewired": "2.1.8"
+    "react-app-rewired": "2.1.8",
+    "babel-plugin-styled-components-px2vw": "1.6.0"
   }
 }
